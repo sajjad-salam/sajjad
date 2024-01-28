@@ -162,6 +162,16 @@ body{
     opacity: .8;
     color: #fff;
 }
+.contatiner1{
+    justify-content: center;
+
+      width: 90%;
+      padding-left: 200px;
+      text-align: center;
+      padding-bottom: 80px;
+      font-family: 'Cairo', sans-serif;
+
+  }
 
 .content{
     display: flex;
@@ -498,3 +508,11 @@ body{
   inset: 3px;
   background: #292929;
 }
+
+@media screen and (max-width: 768px) {
+    /* styles for screens 768px and smaller */
+    .contatiner1 {
+        padding-left: 40px;
+    }
+  
+  }
